@@ -1,0 +1,44 @@
+pwd
+cd .
+ls
+ls -al
+cd ..
+cd ~
+cd /
+
+d: directory
+l: symbolic link
+-: tar
+
+
+sudo apt-get update
+sudo apt-get install sublime_text
+
+ln -s /home/Documents/Jason/MBAN6110/CLIpractice cli
+
+renaming moving files
+
+
+
+mv test.txt Desktop/
+mv test.txt test1.txt
+
+rm test1.txt
+
+cp ~/Documents/Jason/MBAN6110/test.txt ~/Desktop
+cp ~/Documents/Jason/MBAN6110/test.txt ../Desktop
+
+
+cat test.txt
+
+less test.txt
+
+q
+
+
+
+ls -a
+cat .bash_history
+
+
+getdit first.py
