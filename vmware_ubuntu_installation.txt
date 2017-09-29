@@ -1,0 +1,26 @@
+1) Name and operating system
+Name: ubuntu
+Type: Linux
+Version: Ubuntu (64-bit)
+-> BIOS virtualization
+
+2) Memory size (for virtual machine)
+at least 4GB
+ideally upto half
+
+3) Hard disk
+create a virtual hard disk now
+VDI (VirutalBox Disk Image) 
+Fixed size 20GB (min)
+
+4) Settings -> Storage
+
+
+
+Open Source = Free Software
+
+Liberty and Price
+
+Specification for UNIX is called
+POSIX -> GNU project  
+
