@@ -1,0 +1,2 @@
+ctrl + O : save
+ctrl + X : exit
