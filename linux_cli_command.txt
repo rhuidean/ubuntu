@@ -11,6 +11,13 @@ l: symbolic link
 -: tar
 
 
+mkdir my-temp
+touch new.txt
+
+rm new.txt
+rm -rf my-temp/
+
+
 sudo apt-get update
 sudo apt-get install sublime_text
 
@@ -33,12 +40,15 @@ cat test.txt
 
 less test.txt
 
-q
+
 
 
 
 ls -a
 cat .bash_history
+
+head .bash_history
+tail .bash_history
 
 
 getdit first.py
