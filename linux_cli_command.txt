@@ -52,3 +52,42 @@ tail .bash_history
 
 
 getdit first.py
+
+
+grep -n "test" * | grep -v "mytest" > output
+
+sort -t'|' -k4 data.txt
+sort -rt'|' -k3 data.txt
+sort -nt'|' -k2 data.txt
+
+man sort
+
+sort -t'|' +2 -4 data.txt "3rd and 4th"
+
+"Special editor"
+clear
+
+g: global all the occurence in the same line
+: first occurence
+2g: second occurence
+i: case insensitive
+s/patttern/replacement
+sed 's/McDonald/Burger King/g' data.txt
+sed 's/McDonald/Burger King/' data.txt
+sed 's/McDonald/Burger King/2gi' data.txt
+sed 's/McDonald/& Burger King/2gi' data.txt
+
+\1 (escape 1, group first match)
+
+*0 or more
+
+echo "Height: 1000 centimeters" | sed 's/\([0-9]*\) centimeters/\1cm/gi'
+
+multiple command
+sed -e 's/McDonald/BurgerKing/' -e
+
+
+ftp remove
+
+
+
