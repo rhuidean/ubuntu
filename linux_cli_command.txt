@@ -89,5 +89,5 @@ sed -e 's/McDonald/BurgerKing/' -e
 
 ftp remove
 
-
+cat filename | grep -v "[^0-9A-Z]"
 
