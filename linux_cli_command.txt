@@ -91,3 +91,8 @@ ftp remove
 
 cat filename | grep -v "[^0-9A-Z]"
 
+
+mkdir 
+
+rmdir
+
