@@ -92,6 +92,17 @@ ftp remove
 cat filename | grep -v "[^0-9A-Z]"
 
 
+echo $PATH 
+
+ls -l
+chmod u+x one.py
+
+
+
+
+
+
+window command
 mkdir 
 
 rmdir
